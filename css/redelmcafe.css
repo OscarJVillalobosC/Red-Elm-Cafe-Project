@@ -2,11 +2,12 @@ body {
     font-family: "Open Sans", sans-serif;
 }
 
-h1, h2, h3 {
+h1,h2,h3 {
+    color:black;
     font-family: "Lobster", cursive;
 }
 
-h2 {
+h1,h2,h3  {
     color: #03412c;
 }
 
@@ -19,7 +20,7 @@ footer {
 .jumbotron {
     margin: 0;
     padding: 30px;
-    background-image: linear-gradient(to right, #556B2F,#A9A9A9,#5f9ea0);
+    background-image: linear-gradient(to right, #556B2F,#A9A9A9,#556B2F);
     color: black;
 }
 
@@ -27,6 +28,10 @@ footer {
     padding: 50px 0;
     border-bottom: 1px ridge;
     min-height: 200px;
+}
+.navbar {
+    background-color: #BDB76B;
+
 }
 .tab-content {
     border: 1px solid #DDD;
