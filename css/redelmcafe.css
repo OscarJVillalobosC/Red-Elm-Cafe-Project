@@ -11,7 +11,6 @@ h1,h2,h3  {
     color: #03412c;
 }
 
-
 footer {
     background-image: linear-gradient(#556B2F, white);
     padding: 20px 0;
@@ -32,6 +31,13 @@ footer {
 .navbar {
     background-color: #BDB76B;
 
+}
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel {
+    border: solid #B8860B;
 }
 .tab-content {
     border: 1px solid #DDD;
